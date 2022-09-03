@@ -9,7 +9,7 @@ import tareaRoutes from "./routes/tareaRoutes.js";
 const app = express();
 app.use(express.json());
 
-dotenv.config();
+ dotenv.config();
 
 conectarDB();
 
